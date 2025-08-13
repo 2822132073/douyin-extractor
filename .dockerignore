@@ -76,6 +76,7 @@ coverage
 *.ini
 *.cfg
 *.conf
+!nginx.conf
 *.config
 *.lock
 *.log

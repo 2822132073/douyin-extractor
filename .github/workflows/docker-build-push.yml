@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: registry.cn-hangzhou.aliyuncs.com
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: fengsilin/douyin-extractor
 
 jobs:
   build-and-push:
