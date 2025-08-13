@@ -78,6 +78,7 @@ coverage
 *.conf
 !nginx.conf
 !package-lock.json
+!pnpm-lock.yaml
 *.config
 *.lock
 *.log
