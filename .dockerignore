@@ -68,17 +68,11 @@ coverage
 *.dbf
 *.csv
 *.tsv
-*.json
 *.xml
 *.yml
-*.yaml
 *.toml
 *.ini
 *.cfg
-*.conf
-!nginx.conf
-!package-lock.json
-!pnpm-lock.yaml
 *.config
 *.lock
 *.log
