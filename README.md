@@ -58,6 +58,18 @@ make run
 
 应用将在端口80上启动。
 
+### 使用GitHub Actions自动部署
+
+本项目包含一个GitHub Actions工作流，可以在每次推送到main分支时自动构建Docker镜像并推送到GitHub Container Registry。
+
+要使用此功能：
+
+1. 确保你的GitHub仓库启用了GitHub Actions
+2. 将代码推送到main分支
+3. 工作流会自动触发，构建镜像并推送到`ghcr.io/{username}/{repository}`
+
+你可以在`.github/workflows/docker-build-push.yml`文件中查看和修改工作流配置。
+
 ### 手动部署到静态主机
 
 将 `out` 目录中的所有文件上传到您的静态主机提供商（如Vercel、Netlify、GitHub Pages等）。
